@@ -126,3 +126,50 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
+
+/* Call to action section */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+}
+
+/* .call-and-message {
+    background: #3882F6;
+    padding: 40px 50px;
+    border-radius: 12px;
+} */
+
+.message-and-button {
+    background: #3882F6;
+    padding: 40px 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.call-button {
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-width: thick;
+    border-color: red;
+
+    width: 60px;
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.call-header {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+
+.call-message {
+    color: white
+}
