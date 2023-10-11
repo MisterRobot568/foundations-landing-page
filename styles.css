@@ -110,6 +110,7 @@ ul {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding: 125px;
 }
 
 .quote {
@@ -154,14 +155,16 @@ ul {
 
 .call-button {
     color: white;
+    font-size: 18px;
     background-color: #3882F6;
-    border: none;
-    border-width: thick;
-    border-color: red;
-
-    width: 60px;
-    padding: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 100px;
+    margin: 20px;
+    padding: 8px 20px;
     /* background-color: white; */
+    display: flex;
+    justify-content: center;
 }
 
 .call-header {
@@ -172,4 +175,19 @@ ul {
 
 .call-message {
     color: white
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px
+}
+
+.copyright {
+    color: white;
+    font-size: 16px;
 }
